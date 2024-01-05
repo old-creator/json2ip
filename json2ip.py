@@ -13,6 +13,9 @@ logo ="""
                                   | \__ \ (_) | | | |/ __/| | |_) |  
                                  _/ |___/\___/|_| |_|_____|_| .__/   
                                 |__/                        |_|             
+https://github.com/old-creator
+Shodan.json2ip V-2.0.0
+Made with love ;)
 """
 line = '-'*100
 
