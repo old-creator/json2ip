@@ -17,7 +17,7 @@ By using this Python script, you can clean your .json export data from Shodan we
 ```
 ## Installation
 Download project and install requirements using pip.
-```bash
+```git
 git clone https://github.com/old-creator/json2ip.git
 ```
 ```bash
@@ -107,3 +107,25 @@ By using this flag, you can see the output data in addition to the output file i
 -h  --help
 ```
 Use this flag to view the program's help on the command line.
+
+## Examples
+```bash
+python json2ip.py -f shodan_data.json -o ipport.txt -fp 443,445,10443,500,8080
+```
+
+```bash
+python json2ip.py -f sh.json -o out.txt -p -v
+```
+
+```bash
+python json2ip.py -f sh.json -o out.txt -v -p 8000
+```
+```bash
+python json2ip.py -f sh.json -o out.txt -fp 8080
+```
+```bash
+python json2ip.py -v -f sh.json -o out.txt -p 
+```
+```bash
+python json2ip.py -v -f sh.json -o out.txt -p 443,10443,5000,6565
+```
